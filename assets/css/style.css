@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca',
+  sans-serif;
+}
+body{
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.container{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+.container h1{
+  margin-bottom: 50px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.tablero{
+  /* border: 2px solid rgb(149, 216, 132); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  color: #fff;
+  border-radius: 10px;
+  
+
+}
+.tablero button{
+  margin-top: 40px;
+  height: 3rem;
+  width: 18.8rem;
+  /* border:none; */
+  /* background-color:  rgb(132, 216, 146); */
+
+  /* color: rgb(197, 83, 83); */
+  color: #008992;
+  font-weight: 900;
+  margin-bottom: 349px;
+
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+  15px 16px 18px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 13px -7px #000000,
+  15px 16px 18px 0px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 1px;
+}
+.tablero button:hover{
+  opacity: 0.8;
+}
+.flex-row{
+  /* border: 2px solid rgb(204, 41, 41); */
+
+  background-color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 100px;
+  /* border: 2px solid rgb(132, 132, 216); */
+  width: 300px;
+  
+
+}
+.item{
+  border: 2px solid #019988;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+  background-color: rgb(255, 255, 255);
+}
+ 
+.ficha{
+  font-size: 5em;
+}
+span{
+  color: #019988;
+
+}
+.span{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.footer{
+  background-color: black;
+  width: 100%;
+  height: 4rem;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
